@@ -9,7 +9,7 @@ pipeline {
 
     stage('build app') {
       steps {
-        sh 'cd dev_extreme'
+        sh 'cd ./dev_extreme'
       }
     }
 
