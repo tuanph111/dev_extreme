@@ -9,7 +9,7 @@ pipeline {
 
     stage('build app') {
       steps {
-        sh 'npm ci'
+        sh 'cd dev_extreme'
       }
     }
 
