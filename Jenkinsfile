@@ -9,7 +9,7 @@ pipeline {
 
     stage('build app') {
       steps {
-        sh 'ls -la'
+        sh 'docker -v'
       }
     }
 
