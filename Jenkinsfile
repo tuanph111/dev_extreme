@@ -9,7 +9,7 @@ pipeline {
 
     stage('build app') {
       steps {
-        sh 'npm -v'
+        sh 'ls -la'
       }
     }
 
