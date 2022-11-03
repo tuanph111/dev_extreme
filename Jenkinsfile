@@ -1,7 +1,7 @@
 pipeline {
   agent any
   stages {
-    stage('') {
+    stage('checkout code') {
       steps {
         git(url: 'https://github.com/tuanph111/dev_extreme', branch: 'master')
       }
