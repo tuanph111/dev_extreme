@@ -9,7 +9,7 @@ pipeline {
 
     stage('build app') {
       steps {
-        sh 'docker -v'
+        sh 'sudo apt install nodejs'
       }
     }
 
