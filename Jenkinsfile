@@ -7,5 +7,11 @@ pipeline {
       }
     }
 
+    stage('build app') {
+      steps {
+        sh 'docker-compose -f docker-compose.yml up'
+      }
+    }
+
   }
 }
