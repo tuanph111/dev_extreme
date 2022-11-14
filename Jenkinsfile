@@ -10,6 +10,7 @@ pipeline {
     stage('build app') {
       steps {
         sh 'ls -a'
+        sh '/usr/local/bin/docker-compose -f docker-compose.yml up'
       }
     }
 
